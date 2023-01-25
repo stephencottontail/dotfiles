@@ -1,0 +1,12 @@
+[submodule ".config/vim/pack/colors/start/vim-colors"]
+	path = .config/vim/pack/colors/start/vim-colors
+	url = git@github.com:stephencottontail/vim-colors.git
+[submodule ".config/vim/pack/lang/start/vim-fireplace"]
+	path = .config/vim/pack/lang/start/vim-fireplace
+	url = git@github.com:tpope/vim-fireplace.git
+[submodule ".config/vim/pack/lang/start/vim-jsx-pretty"]
+	path = .config/vim/pack/lang/start/vim-jsx-pretty
+	url = git@github.com:MaxMEllon/vim-jsx-pretty.git
+[submodule ".config/vim/pack/lang/start/vim-pug"]
+	path = .config/vim/pack/lang/start/vim-pug
+	url = git@github.com:digitaltoad/vim-pug.git

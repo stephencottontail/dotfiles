@@ -1,0 +1,15 @@
+set shiftwidth=4
+set tabstop=4
+set noexpandtab
+set nohidden
+set directory=$HOME/.vim/swap
+set wildignore=*/node_modules/*,*/build/*
+set path+=src/**,src/clj/**,test/**,test/clj/**,include,includes
+colorscheme fourbit
+
+syntax on
+filetype indent on
+filetype plugin on
+packadd matchit
+
+command! -nargs=1 -complete=command -bar -range Redir silent call redir#redir(<q-args>, <range>, <line1>, <line2>)
