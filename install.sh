@@ -5,5 +5,3 @@ cp -r /workspaces/.codespaces/.persistedshare/dotfiles/.config/vim $HOME/.config
 cp /workspaces/.codespaces/.persistedshare/dotfiles/.bashrc $HOME/.bashrc
 cp /workspaces/.codespaces/.persistedshare/dotfiles/.gitmodules $HOME/.gitmodules
 
-# install plugins
-cd $HOME && git submodule init && git submodule update
